@@ -7,10 +7,10 @@ import pygame_gui
 import tkinter as tk
 from tkinter import messagebox
 
-
 pygame.init()
-
 pygame.font.init()
+
+pygame.display.set_caption("Tybik?????????")
 
 screen_width = 800
 screen_height = 600
@@ -19,7 +19,6 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 font = pygame.font.Font(None, 36)
 white = (255, 255, 255)
 black = (0, 0, 0)
-
 
 
 def game():
